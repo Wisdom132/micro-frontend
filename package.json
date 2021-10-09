@@ -1,0 +1,21 @@
+{
+  "name": "federated",
+  "version": "1.0.0",
+  "description": "module federation test",
+  "main": "index.js",
+  "author": "Wisdom Ekpot <wisdomekpot@gmail.com>",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "lerna": "^4.0.0",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "serve": "lerna run start --stream"
+  }
+}
